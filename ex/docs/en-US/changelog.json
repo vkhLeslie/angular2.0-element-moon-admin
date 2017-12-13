@@ -1,0 +1,343 @@
+{
+  "releases-link": "https://www.npmjs.com/package/element-angular",
+  "releases": [
+    {
+      "version": "0.0.1",
+      "date": "2017-08-06",
+      "link": null,
+      "events": [{ "description": "创建项目" }]
+    },
+    {
+      "version": "0.0.3-alpha.2",
+      "date": "2017-08-30",
+      "link": null,
+      "events": [{ "description": "完成主要组件。补充组件文档以及安装引导。" }]
+    },
+    {
+      "version": "0.0.3-alpha.3",
+      "date": "2017-09-02",
+      "link": null,
+      "events": [{
+        "description": "修复 Aot 编译警告"
+      }, {
+        "description": "增加 Notification / message 组件"
+      }]
+    },
+    {
+      "version": "0.0.4-alpha.0",
+      "date": "2017-09-03",
+      "link": null,
+      "events": [{
+      }, {
+        "description": "增加 Cascader / Card / Badge / Dropdown 组件与文档"
+      }, {
+        "description": "修复 Input / Button 组件的继承样式问题"
+      }]
+    },
+    {
+      "version": "0.0.4-alpha.1",
+      "date": "2017-09-06",
+      "link": null,
+      "events": [{
+        "description": "增加 DatePicker / Breadcrumb 组件与文档"
+      }, {
+        "description": "增加 Input 图标事件与文档",
+        "issues": []
+      }, {
+        "description": "增加 Dropdown 自动改变方向",
+        "issues": [143]
+      }, {
+        "description": "修复 Select 禁用仍旧可以选中",
+        "issues": [136]
+      }]
+    },
+    {
+      "version": "0.0.4-alpha.2",
+      "date": "2017-09-08",
+      "link": null,
+      "events": [{
+        "description": "增加 Dialog / Carousel / Collapse / Slider 组件与文档"
+      }, {
+        "description": "增加 Progress 自定义颜色",
+        "issues": [140]
+      }, {
+        "description": "修复 Select 清除后未更新列表激活项",
+        "issues": [135]
+      }, {
+        "description": "修复 Tag 文档缺失",
+        "issues": [139]
+      }]
+    },
+    {
+      "version": "0.0.4-alpha.3",
+      "date": "2017-09-12",
+      "link": null,
+      "events": [{
+        "description": "增加 Alert / Menu / Pagination 组件与文档"
+      }]
+    },
+    {
+      "version": "0.0.4-alpha.4",
+      "date": "2017-09-14",
+      "link": null,
+      "events": [{
+        "description": "修复 Module build 的错误",
+        "issues": [178]
+      }, {
+        "description": "争对 Angular Cli 项目完善文档"
+      }]
+    },
+    {
+      "version": "0.0.4-alpha.5",
+      "date": "2017-09-15",
+      "link": null,
+      "events": [{
+        "description": "修复 AOT 编译警告的问题",
+        "issues": [181]
+      }, {
+        "description": "增加 Upload 组件与文档"
+      }]
+    },
+    {
+      "version": "0.0.4-beta.0",
+      "date": "2017-09-19",
+      "link": null,
+      "events": [{
+        "description": "增加 Table 组件与文档"
+      }]
+    },
+    {
+      "version": "0.0.4-beta.1",
+      "date": "2017-09-22",
+      "link": null,
+      "events": [{
+        "description": "修复 NavTab 无子选项的错误",
+        "issues": [194]
+      }, {
+        "description": "Table 组件增加多级 Head",
+        "pull-requests": [193]
+      }, {
+        "description": "优化组件文档"
+      }]
+    },
+    {
+      "version": "0.0.4-beta.2",
+      "date": "2017-09-22",
+      "link": null,
+      "events": [{
+        "description": "修复 Module 引入的错误"
+      }]
+    },
+    {
+      "version": "0.0.4-beta.3",
+      "date": "2017-09-28",
+      "link": null,
+      "events": [{
+        "description": "修复 Table 不能正确处理更新后数据问题",
+        "issues": [205]
+      }]
+    },
+    {
+      "version": "0.0.5",
+      "date": "2017-10-13",
+      "link": null,
+      "events": [{
+        "description": "增加 Container 等相关组件与文档"
+      }]
+    },
+    {
+      "version": "0.1.0",
+      "date": "2017-10-20",
+      "link": null,
+      "events": [{
+        "description": "修复文档错误，完善英文文档"
+      }, {
+        "description": "为 Date Picker 组件增加月的基本单位",
+        "issues": [219]
+      }]
+    },
+    {
+      "version": "0.1.1",
+      "date": "2017-10-27",
+      "link": null,
+      "events": [{
+        "description": "为 Date Picker 增加按钮点击事件与文档",
+        "issues": [224]
+      }]
+    },
+    {
+      "version": "0.2.0",
+      "date": "2017-10-30",
+      "link": null,
+      "events": [{
+        "description": "增加 [el-class] 指令与文档"
+      }]
+    },
+    {
+      "version": "0.2.1",
+      "date": "2017-10-30",
+      "link": null,
+      "events": [{
+        "description": "修复 Select 不能正确同步数据的问题",
+        "pull-requests": [237]
+      }, {
+        "description": "修复 Nav Menu 垂直模式时会自动关闭的错误",
+        "pull-requests": [237]
+      }, {
+        "description": "为 Date Picker 增加绝对定位的选项",
+        "pull-requests": [238],
+        "issues": [234]
+      }, {
+        "description": "完善 Select 的文档",
+        "pull-requests": [239],
+        "issues": [233]
+      }]
+    },
+    {
+      "version": "0.2.2",
+      "date": "2017-10-31",
+      "link": null,
+      "events": [{
+        "description": "修复 Table 数据源更新表格内容不变的问题",
+        "issues": [242]
+      }]
+    },
+    {
+      "version": "0.3.0",
+      "date": "2017-11-01",
+      "link": null,
+      "events": [{
+        "description": "同步 Element UI 至 2.0 版本"
+      }, {
+        "description": "优化 Select / Cascader 动画效果",
+        "issues": [251]
+      }, {
+        "description": "修复 Checkbox 错误问题",
+        "issues": [250]
+      }, {
+        "description": "调整样式引入方式，移除不必要的依赖库"
+      }, {
+        "description": "Switch 组件多个属性命名发生变化"
+      }, {
+        "description": "Breadcrumb 组件增加 [separator-class] 属性"
+      }, {
+        "description": "Steps 组件增加 [simple] 属性"
+      }]
+    },
+    {
+      "version": "0.3.1",
+      "date": "2017-10-31",
+      "link": null,
+      "events": [{
+        "description": "优化样式模块的引入方式"
+      }]
+    },
+    {
+      "version": "0.4.0",
+      "date": "2017-11-02",
+      "link": null,
+      "events": [{
+        "description": "全面支持 Angular 5.0",
+        "pull-requests": [258]
+      }, {
+        "description": "优化依赖版本与模块导出方式"
+      }, {
+        "description": "修复 Pagination 组件 Jump 模块样式丢失问题",
+        "issues": [257]
+      }, {
+        "description": "优化 Table 中的 ng-template 性能",
+        "issues": [256]
+      }, {
+        "description": "优化 DatePicker 组件的事件方式",
+        "issues": [255]
+      }]
+    },
+    {
+      "version": "0.4.1",
+      "date": "2017-11-02",
+      "link": null,
+      "events": [{
+        "description": "修复在 @angular/cli@1.5 中出现的 Module 引入错误"
+      }, {
+        "description": "修复在 Angular5 中出现的 KeyValueDiffers 警告 "
+      }]
+    },
+    {
+      "version": "0.4.2",
+      "date": "2017-11-03",
+      "link": null,
+      "events": [{
+        "description": "修复 InputNumber 中 disabled 属性失效问题",
+        "issues": [266]
+      }, {
+        "description": "修复在 InputNumber 中 modelChange 事件无法触发问题",
+        "issues": [265]
+      }]
+    },
+    {
+      "version": "0.4.3",
+      "date": "2017-11-03",
+      "link": null,
+      "events": [{
+        "description": "修复 Message 组件 durtion 属性的初始值",
+        "issues": [270]
+      }, {
+        "description": "修复 Checout 组件 modelChange 事件无法触发问题",
+        "issues": [275]
+      }, {
+        "description": "Dialog 组件新增 center 属性",
+        "pull-requests": [276]
+      }]
+    },
+    {
+      "version": "0.4.4",
+      "date": "2017-11-06",
+      "link": null,
+      "events": [{
+        "description": "Select 组件增加清除逻辑，空值也会触发 changeEvent",
+        "issues": [281]
+      }]
+    },
+    {
+      "version": "0.4.5",
+      "date": "2017-11-06",
+      "link": null,
+      "events": [{
+        "description": "修复 Table 中不能同时渲染多个模板的问题",
+        "issues": [283]
+      }]
+    },
+    {
+      "version": "0.4.6",
+      "date": "2017-11-24",
+      "link": null,
+      "events": [{
+        "description": "修复引入模块可能出现的路径错误"
+      }, {
+        "description": "移除重复样式"
+      }]
+    },
+    {
+      "version": "0.5.0-beta.1",
+      "date": "2017-12-03",
+      "link": null,
+      "events": [{
+        "issues": [302],
+        "description": "新增 Form 模块与文档"
+      }, {
+        "issues": [294],
+        "description": "为所有表单元素增加响应式模式支持"
+      }, {
+        "description": "修复 Windows 下的入口引入错误问题"
+      }, {
+        "description": "修复部分文档样式错位问题"
+      }, {
+        "description": "修复 Date Picker 中造成的事件失效错误"
+      }]
+    }
+  ]
+}
+
+
+
+

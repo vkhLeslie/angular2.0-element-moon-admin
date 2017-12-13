@@ -1,0 +1,32 @@
+<div class="headerWrapper">
+  <header class="header">
+    <div class="container">
+      <h1>
+        <img src="../../../assets/images/element-logo.svg"
+          alt="element-logo"
+          class="nav-logo"
+          draggable="false">
+        <img src="../../../assets/images/element-logo-small.svg"
+          alt="element-logo"
+          class="nav-logo-small"
+          draggable="false">
+      </h1>
+      <ul class="nav">
+        <li class="nav-item">
+          <a [class.active]="isGuide" [routerLink]="['/guide/install']" i18n="@@header-nav-item1">开发指南</a>
+        </li>
+        <li class="nav-item">
+          <a [class.active]="!isGuide" [routerLink]="['/basic/layout']" i18n="@@header-nav-item2">组件</a>
+        </li>
+        <li class="nav-item">
+          <a href="https://github.com/eleme/element-angular" target="_blank" i18n="@@header-nav-item3">项目</a>
+        </li>
+        <li class="nav-item">
+          <span class="nav-lang" [class.active]="locale === 'zh-CN'" (click)="changeLang('zh-CN')">中文</span>
+          <span> / </span>
+          <span class="nav-lang" [class.active]="locale === 'en-US'" (click)="changeLang('en-US')">En</span>
+        </li>
+      </ul>
+    </div>
+  </header>
+</div>

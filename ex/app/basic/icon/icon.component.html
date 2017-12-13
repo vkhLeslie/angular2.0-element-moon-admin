@@ -1,0 +1,20 @@
+<h2 i18n="@@icon-h2-1">Icon 图标</h2>
+<p>提供了一套常用的图标集合。</p>
+
+<h3 i18n="@@icon-h3-1">使用方法</h3>
+<p i18n="@@icon-p-1">直接通过设置类名为 <code>el-icon-iconName</code> 来使用即可。例如：</p>
+
+<ex-demo  [code]="code[0]" notes="你也可以使用 <code> el-icon </code> 组件达到一样的效果。">
+</ex-demo>
+
+<h3 i18n="@@icon-h3-2">图标集合</h3>
+<ul class="icon-list" *ngIf="icons">
+  <li *ngFor="let name of icons">
+    <span>
+      <i [class]="'el-icon-' + name"></i>
+      {{'el-icon-' + name}}
+    </span>
+  </li>
+</ul>
+
+<ex-footer-nav [page]="page"></ex-footer-nav>

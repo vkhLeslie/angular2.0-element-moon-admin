@@ -1,0 +1,38 @@
+<div class="page-changelog" *ngIf="logs">
+  <div class="heading">
+    <el-button class="fr">
+      <a [href]="makeSafeUrl(logs['releases-link'])" target="_blank">NPM Releases</a>
+    </el-button>
+    <span i18n="@@log-span-1">更新日志</span>
+  </div>
+  <ul class="timeline" ref="timeline">
+    <li *ngFor="let release of logs.releases">
+      <h3>
+        <a [href]="makeSafeUrl(release.link)" target="_blank">{{release.version}}</a>
+      </h3>
+      <p><em>{{release.date}}</em></p>
+      <ul>
+        <li *ngFor="let event of release.events">
+          {{event.description}}
+          <ng-container *ngIf="event.issues && event.issues.length > 0">
+            <a target="_blank" *ngFor="let issue of event.issues"
+              [href]="makeSafeUrl('https://github.com/eleme/element-angular/issues/' + issue)">
+              [issue-{{issue}}]
+            </a>
+          </ng-container>
+          <ng-container *ngIf="event['pull-requests'] && event['pull-requests'].length > 0">
+            <a target="_blank" *ngFor="let pr of event['pull-requests']"
+               [href]="makeSafeUrl('https://github.com/eleme/element-angular/pull/' + pr)">
+              [pr-{{pr}}]
+            </a>
+          </ng-container>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<ex-footer-nav [page]="page"></ex-footer-nav>
+
+
+

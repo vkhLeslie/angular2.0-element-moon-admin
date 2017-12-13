@@ -1,0 +1,14 @@
+<div class="footer-nav">
+  <ng-container *ngIf="page.previous.name">
+    <span class="footer-nav-link footer-nav-left" (click)="clickHandle(false)">
+      <i class="el-icon-arrow-left"></i>
+    {{ page.previous.name }}
+  </span>
+  </ng-container>
+  <ng-container *ngIf="page.next.name">
+    <span class="footer-nav-link footer-nav-right" (click)="clickHandle(true)">
+        {{ page.next.name }}
+      <i class="el-icon-arrow-right"></i>
+    </span>
+  </ng-container>
+</div>

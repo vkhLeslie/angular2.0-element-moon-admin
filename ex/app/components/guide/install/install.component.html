@@ -1,0 +1,33 @@
+<h2 i18n="@@install-h2-1">安装</h2>
+<h3 i18n="@@install-h3-1">npm 安装</h3>
+<p i18n="@@install-p-1">推荐使用 npm 的方式安装，它能更好地和 <a href="https://webpack.js.org/" target="_blank">webpack</a> 打包工具配合使用。</p>
+<pre>
+  <code class="hljs" [innerHTML]="code[0] | highlightAuto"></code>
+</pre>
+
+<h3>Hello world</h3>
+<p i18n="@@install-p-2">引入模块后，我们能轻易地构建一个简易页面</p>
+
+<h4>Webpack</h4>
+<p i18n="@@install-p-4">使用 webpack 的引入方式：</p>
+<pre>
+  <code class="hljs" [innerHTML]="code[1] | highlightAuto"></code>
+</pre>
+
+<h4>Angular CLI</h4>
+<p i18n="@@install-p-5">如果你使用 angular-cli，你需要样式文件在 <code>/src/styles</code> 引入：</p>
+<pre>
+  <code class="hljs" [innerHTML]="code[2] | highlightAuto"></code>
+</pre>
+
+<p i18n="@@install-p-6">如果你自定义了一些样式编译方案，可能上述引入样式文件方式无法完成编译，请参考如下：</p>
+<pre>
+  <code class="hljs" [innerHTML]="code[3] | highlightAuto"></code>
+</pre>
+
+<p i18n="@@install-p-7">如果你希望能够通过模块、异步模块、子模块来引入 element-angular，请参阅下一章</p>
+
+<ex-footer-nav [page]="page"></ex-footer-nav>
+
+
+
